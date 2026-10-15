@@ -1,0 +1,67 @@
+{
+  "products": [
+    {
+      "id": 101,
+      "title": "Hakao Udang",
+      "category": "Dimsum Basah",
+      "price": 19,
+      "description": "Isian udang segar dipotong kecil dimix dengan minyak wijen dan parutan wortel. Juicy didalam, kenyal diluar."
+    },
+    {
+      "id": 102,
+      "title": "Udang Rambutan",
+      "category": "Dimsum Goreng",
+      "price": 19,
+      "description": "Campuran ayam giling dan irisan udang segar dibalut dengan kulit yang kriuk."
+    },
+    {
+      "id": 103,
+      "title": "Shumai Ayam",
+      "category": "Dimsum Kukus",
+      "price": 17,
+      "description": "Dimsum populer dengan isian daging ayam giling dibungkus dengan kulit pansit tipis."
+    },
+    {
+      "id": 104,
+      "title": "Dimsum Nori",
+      "category": "Dimsum Spesial",
+      "price": 19,
+      "description": "Perpaduan unik dan lezat antara nori dan isian adonan ayam giling."
+    },
+    {
+      "id": 105,
+      "title": "Dimsum Mentai",
+      "category": "Dimsum Mentai",
+      "price": 19,
+      "description": "Dimsum dengan isian ayam giling yang diberi topping saus mentai pedas."
+    },
+    {
+      "id": 106,
+      "title": "Dimsum Keju",
+      "category": "Dimsum Keju",
+      "price": 19,
+      "description": "Dimsum keju dengan isian daging ayam giling, diberi sedikit keju yang lumer didalam."
+    },
+    {
+      "id": 107,
+      "title": "Pangsit Udang Goreng",
+      "category": "Dimsum Goreng",
+      "price": 18,
+      "description": "Pangsit renyah dengan isian udang cincang pilihan disajikan dengan saus khas."
+    },
+    {
+      "id": 108,
+      "title": "Lumpia Kulit Tahu",
+      "category": "Dimsum Kukus",
+      "price": 18,
+      "description": "Daging ayam dan udang dibungkus dengan kulit tahu gurih yang kaya rasa."
+    },
+    {
+      "id": 109,
+      "title": "Siomay Beef",
+      "category": "Dimsum Kukus",
+      "price": 18,
+      "description": "Varian siomay spesial dengan daging sapi cincang pilihan yang lembut dan gurih."
+    }
+  ]
+}
