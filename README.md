@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Nama** | [Nama Kamu] |
+| **Nama** | Zaskia Anugrah Halimatusa'diah |
 | **NIM** | 2440304009 |
 | **Kelas** | Teknik Komputer - Semester 5 |
 | **Repository** | [hao-dimsum-dashboard](https://github.com/kayoo-7z/hao-dimsum-dashboard.git) |
@@ -173,7 +173,7 @@ function handleFilterAndSort() {
 
 | | |
 |---|---|
-| **Nama Mahasiswa** | [Nama Kamu] |
+| **Nama Mahasiswa** | Zaskia Anugrah Halimatusa'diah |
 | **NIM** | 2440304009 |
 | **Kolaborator** | AI Assistant (Gemini) |
 | **Link Sesi Percakapan** | [Transkrip Sesi Kolaborasi AI](#) |
