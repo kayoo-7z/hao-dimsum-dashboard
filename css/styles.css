@@ -1,0 +1,127 @@
+:root {
+    --space-1: 0.5rem;
+    --space-2: 1rem;
+    --brand-orange: #c85a32; /* Warna oren bata ala Hao Dimsum */
+    --brand-dark: #1f2937;   /* Hitam/abu gelap untuk kontras teks */
+    --surface: #ffffff;      /* Putih bersih untuk kartu menu */
+    --text-main: #2d2d2d;
+    --radius: 0.75rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    line-height: 1.6;
+    color: var(--text-main);
+    background-color: #fdf6f0; /* Background putih gading hangat */
+}
+
+/* Header Khas Nuansa Dimsum */
+header {
+    background-color: var(--brand-orange);
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    border-bottom: 4px solid #fff;
+}
+
+header h1 {
+    margin: 0 0 0.5rem 0;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+
+header p {
+    margin: 0;
+    font-size: 0.95rem;
+    opacity: 0.9;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-2);
+    margin-top: 1.2rem;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.15);
+    padding: 0.4rem 1rem;
+    border-radius: 2rem;
+    transition: background 0.2s;
+}
+
+header nav a:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+/* Container & Grid Kartu Menu */
+.container {
+    width: min(100% - 2rem, 72rem);
+    margin-inline: auto;
+    padding: 2rem 0;
+}
+
+section {
+    padding: 1rem;
+}
+
+section h2 {
+    color: var(--brand-orange);
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 1.5rem;
+}
+
+.card {
+    background: var(--surface);
+    padding: 1.2rem;
+    border: 2px solid #f0ded3;
+    border-radius: var(--radius);
+    box-shadow: 0 4px 6px rgba(200, 90, 50, 0.08);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(200, 90, 50, 0.15);
+}
+
+.card h3 {
+    margin-top: 0;
+    color: var(--brand-dark);
+    font-size: 1.25rem;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: var(--brand-dark);
+    color: white;
+    margin-top: 3rem;
+}
+
+/* Fokus Aksesibilitas */
+a:focus-visible, button:focus-visible {
+    outline: 3px solid var(--brand-orange);
+    outline-offset: 3px;
+}
