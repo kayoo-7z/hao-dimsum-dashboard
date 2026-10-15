@@ -125,3 +125,51 @@ a:focus-visible, button:focus-visible {
     outline: 3px solid var(--brand-orange);
     outline-offset: 3px;
 }
+
+/* Styling Kontrol Search & Sorting (Responsif) */
+.controls {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    background: var(--surface);
+    padding: 1rem;
+    border-radius: var(--radius);
+    border: 2px solid #f0ded3;
+}
+
+.controls input, 
+.controls select {
+    flex: 1;
+    min-width: 220px;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    color: var(--text-main);
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.controls input:focus, 
+.controls select:focus {
+    outline: none;
+    border-color: var(--brand-orange);
+    box-shadow: 0 0 0 3px rgba(200, 90, 50, 0.15);
+}
+
+/* Media Query Responsif untuk Mobile (<= 480px) */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .controls {
+        flex-direction: column;
+    }
+
+    .controls input, 
+    .controls select {
+        width: 100%;
+    }
+}
